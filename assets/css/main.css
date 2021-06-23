@@ -3244,6 +3244,9 @@ input, select, textarea {
 			background-position: top center;
 			background-repeat: no-repeat;
 			background-attachment: scroll;
+			-webkit-background-size: 100% auto;
+			-moz-background-size: 100% auto;
+  			-o-background-size: 100% auto;
 			z-index: -1;
 		}
 
