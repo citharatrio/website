@@ -3242,11 +3242,8 @@ input, select, textarea {
 			background-image: url("../../images/bg.jpg");
 			background-size: 100% auto;
 			background-position: top center;
-			background-repeat: no-repeat repeat;
+			background-repeat: no-repeat no-repeat;
 			background-attachment: scroll;
-			-webkit-background-size: 100% auto;
-			/* -moz-background-size: contain auto; */
-  			/* -o-background-size: contain auto; */
 			z-index: -1;
 		}
 
@@ -3281,13 +3278,13 @@ input, select, textarea {
 			opacity: 1;
 		}
 
-		@media screen and (orientation: portrait) {
+		/* @media screen and (orientation: portrait) {
 
 			#wrapper > .bg {
-				background-size: auto 100%;
+				background-size: auto contain;
 			}
 
-		}
+		} */
 
 /* Intro */
 
